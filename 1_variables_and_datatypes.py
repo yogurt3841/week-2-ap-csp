@@ -8,8 +8,8 @@
 # Step 5: End
 
 # Let's write that algorithm in Python code:
-num1 = 5
-num2 = 7
+num1 = 5 #integer data type
+num2 = 7 #integer data type
 sum_result = num1 + num2
 print("The sum is:", sum_result)
 
@@ -56,10 +56,11 @@ first_name = "John"
 
 # 3. Avoid using Python keywords and symbols
 # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
+# cannot use class. def. return, for ,etc .
 # Example (VALID):
 loop_word = "test"
 
 print("Variable naming rules followed successfully!\n")
 # ----------------------------------------
 
-# End of 1_variables_and_datatypes.py
+# End of 1_variables_and_datatypes.pyAC
