@@ -47,11 +47,29 @@ Declaration_of_independence=  "When in the Course of human events, it becomes ne
 # ----------------------------------------
 # 3. Indexing and Slicing
 # ----------------------------------------
- chicago_mayor ="Johnson"
+chicago_mayor ="Johnson"
 # Indexing: Access characters by position (0-based index)
 print(chicago_mayor[0])
 #get the last letter
+print(chicago_mayor[-1])
 #get the "s" in the string
+print(chicago_mayor[4])
+# get the "son" from the string
+print(chicago_mayor[ 4 : ])
+# the first number in slicing is inclusing
+# the second number is exclusive
+# get the string "John"
+print(chicago_mayor[0 : 4])
+# get "ohns"
+print(chicago_mayor[1:5])
+# when we get one character/letter
+# its called string indexing
+# when we get a chunk of letters
+#from a string, its called
+# string slicing
+# git add .
+# get commit -m "string slicing"
+# git push origin
 print("First character:", phrase[0])  # Output: P
 print("Last character:", phrase[-1])  # Output: !
 
