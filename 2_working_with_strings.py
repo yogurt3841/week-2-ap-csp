@@ -68,7 +68,7 @@ print(chicago_mayor[1:5])
 #from a string, its called
 # string slicing
 # git add .
-# get commit -m "string slicing"
+# git commit -m "string slicing"
 # git push origin
 print("First character:", phrase[0])  # Output: P
 print("Last character:", phrase[-1])  # Output: !
@@ -84,7 +84,7 @@ print("Formatted Example:", (greeting + " " + name + "!").upper())
 # ----------------------------------------
 # 7. Strings: Advanced Concepts
 # ----------------------------------------
-
+ 
 # Creating Strings: use single or double quotes
 greeting1 = 'Hello'
 greeting2 = "Hi there"
@@ -112,3 +112,15 @@ print(intro)
 # You can also use f-strings (Python 3.6+)
 intro_fstring = f"My name is {name} and I am {age} years old."
 print(intro_fstring)
+
+phrase3= "Supercagifragilstic"
+#uppercase it
+#slice Super out of it into a different variable
+# slice cagi out of phrase3 into its own variable
+#print out the last letter
+print(phrase.upper())
+cut = phrase3 [0:5]
+print(cut)
+# git add .
+# git commit -m "practice slicing"
+# git push origin
